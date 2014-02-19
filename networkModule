@@ -1,0 +1,16 @@
+package networkModule
+
+import(
+  "net"
+  
+)
+
+type struct NetworkModule {
+  in chan string
+  out chan string
+  //maybe something else
+}
+
+func CreateNetworkModule(){
+
+}
