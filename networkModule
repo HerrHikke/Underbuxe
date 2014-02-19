@@ -5,12 +5,12 @@ import(
   
 )
 
-type struct NetworkModule {
+type NetworkModule struct {
   in chan string
   out chan string
   //maybe something else
 }
 
-func CreateNetworkModule(){
+func CreateNetworkModule() NetworkModule {
 
 }
