@@ -1,0 +1,14 @@
+package controlModule
+
+import(
+
+)
+
+type struct ControlModule {
+  in chan string
+  out chan string
+}
+
+func InitControlModule() ControlModule{
+  
+}
