@@ -42,7 +42,7 @@ func (n NetworkModule) *Broadcast() {
     _, err = conn.Write(data)
     
     if err != nil {
-      //handle error, maybe differently than above
+      //TODO: handle error, maybe differently than above
     }
 }
 
@@ -51,7 +51,7 @@ func (n NetworkModule) *Listen() {
   conn, err := net.ListenUDP("udp", udpaddr)
   
   if err != nil {
-    //handle error
+    //TODO: handle error
   }
   
   conn.setReadDeadline(Now().Add(Second))
