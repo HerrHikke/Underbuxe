@@ -1,4 +1,4 @@
-package networkModule
+package NetworkModule
 
 import(
   "net"
@@ -19,7 +19,7 @@ type NetworkModule struct {
   //maybe something else
 }
 
-func CreateNetworkModule(LocalIP, port string) NetworkModule {
+func InitNetworkModule(LocalIP, port string) NetworkModule {
   var module NetworkModule
   module.localIP = LocalIP
   
