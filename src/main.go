@@ -1,14 +1,14 @@
 package main
 
 import (
-	"DriverModule"
-	"IOModule"
-	"NetworkModule"
-	"
+	."ControlModule"
+	."DriverModule"
+	."IOModule"
+	."NetworkModule"
 )
 
 func main() {
-	
+	go InitControlModule()	
 
 
 }
