@@ -1,4 +1,4 @@
-package ioModule
+package IOModule
 
 import (
 	"bufio"
